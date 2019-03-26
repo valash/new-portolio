@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100');
+
+//font-family: 'Work Sans', sans-serif;
+
 $tempB: 3px solid black;
 $brand: rgba(93, 93, 148, 0.11);
 $opa: rgba(243, 238, 246, 0.9);
@@ -7,22 +12,33 @@ html {
 	height: 100%;
 	color: black;
 	margin: 0;
+	scroll-behavior: smooth;
+
 	// background-image: url('/imgs/logo.png');
 	// background-size: cover;
 	// background-repeat: no-repeat;
 }
 
 header {
-	background-image: url('/imgs/logo.png');
+	background-color: black;
+	color: white;
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	h1 {
+		font-family: 'Roboto', sans-serif;
+		margin: 0;
+		top: 45%;
+		justify-content: center;
+		display: flex;
+		position: relative;
+		font-size: 100px;
+	}
 }
 
 body {
 	.navvy {
-		background-color: $brand;
 		position: relative;
 		top: 0;
 		width: 100%;
@@ -32,18 +48,19 @@ body {
 			list-style-type: none;
 			list-style-type: none;
 			margin: 0;
-			padding: 20px;
+			padding: 35px;
 			display: flex;
 			justify-content: space-between;
 
 			li {
 				display: inline;
-				font-family: 'Fira Sans', sans-serif;
+				font-family: 'Work Sans', sans-serif;
 				font-size: 14px;
 				a {
 					color: black;
 					text-decoration: none;
 					padding: 10px;
+					font-size: xx-large;
 					&:hover {
 						background-color: $opa;
 					}
@@ -57,9 +74,8 @@ main {
 	display: inline-flex;
 	width: 100%;
 	height: 100%;
-}
-#card {
-	color: black;
-}
-ul {
+
+	#card {
+		color: red;
+	}
 }
