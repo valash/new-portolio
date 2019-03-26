@@ -68,15 +68,28 @@ body .navvy ul li a:hover {
   background-color: rgba(243, 238, 246, 0.9);
 }
 
-main {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  width: 100%;
-  height: 100%;
+body .about-me {
+  display: inline;
 }
 
-main #card {
-  color: red;
+body .about-me h1 {
+  text-align: center;
+}
+
+body .about-me h4 {
+  text-align: center;
+}
+
+body .container {
+  width: 600px;
+  height: 600px;
+}
+
+footer {
+  display: inline;
+}
+
+footer h1 {
+  margin-left: 50%;
 }
 /*# sourceMappingURL=main.css.map */

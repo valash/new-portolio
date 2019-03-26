@@ -68,14 +68,25 @@ body {
 			}
 		}
 	}
+	.about-me {
+		display: inline;
+		h1 {
+			text-align: center;
+		}
+		h4 {
+			text-align: center;
+		}
+	}
+	.container {
+		width: 600px;
+		height: 600px;
+	}
 }
 
-main {
-	display: inline-flex;
-	width: 100%;
-	height: 100%;
+footer {
+	display: inline;
 
-	#card {
-		color: red;
+	h1 {
+		margin-left: 50%;
 	}
 }
