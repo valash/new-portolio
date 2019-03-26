@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:100');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
 
 //font-family: 'Work Sans', sans-serif;
 
@@ -17,7 +18,7 @@ html {
 header {
 	background-color: black;
 	color: white;
-	height: 100%;
+	height: 100vh;
 	h1 {
 		// border: 2px solid white;
 		font-family: 'Roboto', sans-serif;
@@ -38,6 +39,7 @@ body {
 		position: relative;
 		top: 0;
 		width: 100%;
+		line-height: 200px;
 
 		ul {
 			text-align: center;
@@ -65,18 +67,28 @@ body {
 		}
 	}
 	.container {
-		padding: 20px;
-	}
-	.about-me {
-		display: inline;
-		h1 {
-			margin: 0;
-			text-align: center;
-			font-family: 'Work Sans', sans-serif;
-			padding: 10px;
-			&:hover {
-				color: rgba(137, 165, 159, 0.342);
+		padding: 10%;
+
+		.carousel-inner {
+			.item {
+				img {
+					margin: auto;
+					display: block;
+					max-width: auto;
+					height: 480px;
+				}
 			}
 		}
 	}
+	// .about-me {
+	// 	display: inline;
+	// 	h1 {
+	// 		color: rgba(2, 2, 2, 0.459);
+	// 		margin-top: 26px;
+	// 		text-align: center;
+	// 		font-family: 'Roboto', sans-serif;
+	// 		font-weight: bolder;
+	// 		padding: 10px;
+	// 	}
+	// }
 }
