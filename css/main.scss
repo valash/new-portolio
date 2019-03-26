@@ -9,24 +9,17 @@ $opa: rgba(243, 238, 246, 0.9);
 
 body,
 html {
-	height: 100%;
+	height: 100vh;
 	color: black;
 	margin: 0;
-	scroll-behavior: smooth;
-
-	// background-image: url('/imgs/logo.png');
-	// background-size: cover;
-	// background-repeat: no-repeat;
 }
 
 header {
 	background-color: black;
 	color: white;
 	height: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
 	h1 {
+		// border: 2px solid white;
 		font-family: 'Roboto', sans-serif;
 		margin: 0;
 		top: 45%;
@@ -34,6 +27,9 @@ header {
 		display: flex;
 		position: relative;
 		font-size: 100px;
+		&:hover {
+			color: rgba(137, 165, 159, 0.342);
+		}
 	}
 }
 
@@ -48,7 +44,7 @@ body {
 			list-style-type: none;
 			list-style-type: none;
 			margin: 0;
-			padding: 35px;
+			padding: 25px;
 			display: flex;
 			justify-content: space-between;
 
@@ -62,31 +58,25 @@ body {
 					padding: 10px;
 					font-size: xx-large;
 					&:hover {
-						background-color: $opa;
+						color: rgba(137, 165, 159, 0.342);
 					}
 				}
 			}
 		}
 	}
+	.container {
+		padding: 20px;
+	}
 	.about-me {
 		display: inline;
 		h1 {
+			margin: 0;
 			text-align: center;
+			font-family: 'Work Sans', sans-serif;
+			padding: 10px;
+			&:hover {
+				color: rgba(137, 165, 159, 0.342);
+			}
 		}
-		h4 {
-			text-align: center;
-		}
-	}
-	.container {
-		width: 600px;
-		height: 600px;
-	}
-}
-
-footer {
-	display: inline;
-
-	h1 {
-		margin-left: 50%;
 	}
 }
