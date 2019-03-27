@@ -86,3 +86,41 @@ body {
 .second-body {
 	height: 100vh;
 }
+
+footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+
+	ul {
+		justify-content: center;
+		text-align: center;
+		list-style-type: none;
+		padding: 25px;
+		display: flex;
+
+		a {
+			color: rgba(0, 0, 0, 0.199);
+			#social-fb {
+				&:hover {
+					color: #3b5998;
+				}
+			}
+			#social-tw {
+				&:hover {
+					color: #0077b5;
+				}
+			}
+			#social-gp {
+				&:hover {
+					color: black;
+				}
+			}
+			#social-em {
+				&:hover {
+					color: #f39c12;
+				}
+			}
+		}
+	}
+}
