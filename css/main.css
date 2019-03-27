@@ -69,18 +69,18 @@ body .navvy ul li a:hover {
   color: rgba(137, 165, 159, 0.342);
 }
 
-body .navvy ul .second-body {
-  height: 100vh;
-}
-
-body .navvy ul .second-body .container {
+body .navvy ul .container {
   padding: 10%;
 }
 
-body .navvy ul .second-body .container .carousel-inner .item img {
+body .navvy ul .container .carousel-inner .item img {
   margin: auto;
   display: block;
   max-width: auto;
   height: 480px;
+}
+
+.second-body {
+  height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */

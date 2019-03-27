@@ -64,24 +64,24 @@ body {
 				}
 			}
 
-			.second-body {
-				height: 100vh;
+			.container {
+				padding: 10%;
 
-				.container {
-					padding: 10%;
-
-					.carousel-inner {
-						.item {
-							img {
-								margin: auto;
-								display: block;
-								max-width: auto;
-								height: 480px;
-							}
+				.carousel-inner {
+					.item {
+						img {
+							margin: auto;
+							display: block;
+							max-width: auto;
+							height: 480px;
 						}
 					}
 				}
 			}
 		}
 	}
+}
+
+.second-body {
+	height: 100vh;
 }
