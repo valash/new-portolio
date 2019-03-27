@@ -36,7 +36,6 @@ body .navvy {
   position: relative;
   top: 0;
   width: 100%;
-  line-height: 200px;
 }
 
 body .navvy ul {
@@ -70,11 +69,15 @@ body .navvy ul li a:hover {
   color: rgba(137, 165, 159, 0.342);
 }
 
-body .container {
+body .navvy ul .second-body {
+  height: 100vh;
+}
+
+body .navvy ul .second-body .container {
   padding: 10%;
 }
 
-body .container .carousel-inner .item img {
+body .navvy ul .second-body .container .carousel-inner .item img {
   margin: auto;
   display: block;
   max-width: auto;

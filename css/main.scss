@@ -39,7 +39,6 @@ body {
 		position: relative;
 		top: 0;
 		width: 100%;
-		line-height: 200px;
 
 		ul {
 			text-align: center;
@@ -64,31 +63,25 @@ body {
 					}
 				}
 			}
-		}
-	}
-	.container {
-		padding: 10%;
 
-		.carousel-inner {
-			.item {
-				img {
-					margin: auto;
-					display: block;
-					max-width: auto;
-					height: 480px;
+			.second-body {
+				height: 100vh;
+
+				.container {
+					padding: 10%;
+
+					.carousel-inner {
+						.item {
+							img {
+								margin: auto;
+								display: block;
+								max-width: auto;
+								height: 480px;
+							}
+						}
+					}
 				}
 			}
 		}
 	}
-	// .about-me {
-	// 	display: inline;
-	// 	h1 {
-	// 		color: rgba(2, 2, 2, 0.459);
-	// 		margin-top: 26px;
-	// 		text-align: center;
-	// 		font-family: 'Roboto', sans-serif;
-	// 		font-weight: bolder;
-	// 		padding: 10px;
-	// 	}
-	// }
 }
